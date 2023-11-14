@@ -8,29 +8,19 @@
 </head>
 <body>
    <header id="title"> Library</header>
-   <div id="pop-up"> 
+   <div id="backdrop"></div>
+   <form  method="dialog" id="pop-up"> 
     <div><label for="title-input">Title Name: </label><input type="text" id="title-input"> </div>
      <div><label for="author-input">Author Name:</label><input type="text" id="author-input"></div>
     <div><label for="pages-input"> Pages:</label><input type="number" id="pages-input"></div>
     <div><label for="readYet-input"> Have read:</label><input type="checkbox" id="readYet-input"></div>
-    <button id="summit-button">Summit</button>
- </div>
-    <div id="grid-library">
-        <div class="card">
-            <header>Title</header>
-            <main>
-                <div>Name: </div>
-              <div>Author: </div>
-              <div>Pages: </div>
-            </main>
-            
-                <button> have read</button>
-                <button> Delete</button>
-            
-        </div>
-        
-    </div>
+    <button id="submit-button">Summit</button>
 
+   </form>
+<button id="add-button"> Add Book</button>
+    <div id="grid-library">
+      
+    </div>
     
     <script src="1.js"></script>
 </body>
