@@ -93,6 +93,9 @@ main > div {
     display: none;
 }
 
-button.status {
-    
+button.yesStatus {
+ background-color: greenyellow;
+}
+button.noStatus {
+    background-color: orangered;
 }
